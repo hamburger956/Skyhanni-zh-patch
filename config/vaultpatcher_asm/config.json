@@ -1,0 +1,13 @@
+{
+  "modules": ["SkyHanni-7.10.0-mc1.21.11"],
+  "default_language": "en_us",
+  "class_patch": false,
+  "load_all_modules": false,
+  "debug_mode": {
+    "is_enable": false,
+    "output_mode": 0,
+    "output_node_debug": false,
+    "export_class": false,
+    "use_cache": true
+  }
+}
