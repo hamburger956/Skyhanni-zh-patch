@@ -1,8 +1,8 @@
 [
   {
-    "name": "SkyHanni-7.10.0-mc1.21.11",
+    "name": "SkyHanni-7.14.0-mc1.21.11",
     "desc": "",
-    "mods": "SkyHanni-7.10.0-mc1.21.11",
+    "mods": "SkyHanni-7.14.0-mc1.21.11",
     "dynamic": false,
     "i18n": false
   },
@@ -357,12 +357,20 @@
             "value": "Ashfang"
         },
         {
+            "key": "Ashfang settings",
+            "value": "Ashfang 设置"
+        },
+        {
             "key": "Reputation Helper",
             "value": "声望助手"
         },
         {
             "key": "Matriarch Helper",
             "value": "女族长助手"
+        },
+        {
+            "key": "Helper for Heavy Pearls",
+            "value": "重型珍珠助手"
         },
         {
             "key": "Atoms HitBox",
@@ -373,28 +381,64 @@
             "value": "在 Kuudra 中禁用 Profile Viewer"
         },
         {
+            "key": "Prevent player interactions during the Kuudra boss fight to stop Profile Viewer from opening.",
+            "value": "在 Kuudra 首领战期间阻止玩家交互，防止 Profile Viewer 打开。"
+        },
+        {
             "key": "Miniboss Respawn Timer",
             "value": "小首领重生计时器"
+        },
+        {
+            "key": "Shows a timer for when minibosses will respawn.",
+            "value": "显示小首领重生倒计时。"
         },
         {
             "key": "Pablo NPC Helper",
             "value": "Pablo NPC 助手"
         },
         {
+            "key": "Show a clickable message that grabs the flower needed from your sacks.",
+            "value": "显示可点击的消息，从你的麻袋中取出所需的花。"
+        },
+        {
             "key": "Sirih NPC Helper",
             "value": "Sirih NPC 助手"
+        },
+        {
+            "key": "Show a clickable message that grabs sulphur from your sacks.",
+            "value": "显示可点击的消息，从你的麻袋中取出硫磺。"
+        },
+        {
+            "key": "Avorius NPC Helper",
+            "value": "Avorius NPC 助手"
+        },
+        {
+            "key": "Show a clickable message that grabs a cup of blood from your sacks.",
+            "value": "显示可点击的消息，从你的麻袋中取出一杯血液。"
         },
         {
             "key": "Volcano Explosivity",
             "value": "火山喷发指数"
         },
         {
+            "key": "Show a HUD of the current volcano explosivity level.",
+            "value": "显示当前火山喷发等级的 HUD。"
+        },
+        {
             "key": "Dojo Rank Display",
             "value": "道馆排名显示"
         },
         {
+            "key": "Display your rank, score, actual belt, and points needed for the next belt in the Challenges inventory on the Crimson Isles.",
+            "value": "在绯红岛屿的挑战界面显示你的排名、分数、当前段位以及升到下一段位所需点数。"
+        },
+        {
             "key": "Magma Boss Phase",
             "value": "岩浆首领阶段"
+        },
+        {
+            "key": "Show the current phase of the Magma Boss.",
+            "value": "显示岩浆首领的当前阶段。"
         }
     ]
   },
@@ -826,6 +870,110 @@
         {
             "key": "Custom LS Mobs",
             "value": "自定义战利品共享生物"
+        },
+        {
+            "key": "Shark Fish Counter",
+            "value": "鲨鱼计数"
+        },
+        {
+            "key": "Counts how many Sharks have been caught.",
+            "value": "统计已钓到的鲨鱼数量。"
+        },
+        {
+            "key": "Shorten Fishing Message",
+            "value": "精简钓鱼消息"
+        },
+        {
+            "key": "Shorten the chat message that says what type of Sea Creature you have fished.",
+            "value": "缩短聊天栏中提示钓到哪种海怪的消息。"
+        },
+        {
+            "key": "Compact Double Hook",
+            "value": "紧凑双钩提示"
+        },
+        {
+            "key": "Add Double Hook to the Sea Creature chat message instead of in a previous line.",
+            "value": "将“双钩”信息合并到海怪消息中，而非单独一行。"
+        },
+        {
+            "key": "Hotspot Radar Guesser",
+            "value": "热点雷达推测器"
+        },
+        {
+            "key": "Shows where the closest Fishing Hotspot is when using the §9Hotspot Radar§7.",
+            "value": "使用 §9热点雷达§7 时，显示最近钓鱼热点的位置。"
+        },
+        {
+            "key": "Pathfind to Hotspots",
+            "value": "寻路至热点"
+        },
+        {
+            "key": "When the Hotspot Radar Guesser feature finds a target, shows a pathfind to that Fishing Hotspot.",
+            "value": "当热点雷达推测器找到目标后，显示前往该钓鱼热点的寻路路线。"
+        },
+        {
+            "key": "Line to Hotspot",
+            "value": "热点连线"
+        },
+        {
+            "key": "Draws a line towards the Fishing Hotspot.",
+            "value": "绘制一条指向钓鱼热点的连线。"
+        },
+        {
+            "key": "Mute Banshee sounds",
+            "value": "静音女妖尖啸"
+        },
+        {
+            "key": "Disables the screams of a Banshee.",
+            "value": "禁用女妖的尖叫声。"
+        },
+        {
+            "key": "Flay/Whip Hider",
+            "value": "鞭刃粒子隐藏器"
+        },
+        {
+            "key": "Hides Flaming Flay/Soul Whip particles that are within this Distance of you",
+            "value": "隐藏此距离内烈焰鞭/灵魂鞭的粒子效果"
+        },
+        {
+            "key": "Sea Creature Kill Time",
+            "value": "海怪击杀耗时"
+        },
+        {
+            "key": "Sends a chat message that shows how much time it took to kill a specific sea creature.",
+            "value": "在聊天栏发送击杀特定海怪所用的时间。"
+        },
+        {
+            "key": "Only on Own Mobs",
+            "value": "仅限自己的生物"
+        },
+        {
+            "key": "Only send the Kill Time for mobs detected as your own.",
+            "value": "仅对判定为属于你自己的生物显示击杀耗时。"
+        },
+        {
+            "key": "Custom Kill Time Mobs",
+            "value": "自定义击杀耗时生物"
+        },
+        {
+            "key": "This Feature can be customized under /shseacreatures!",
+            "value": "此功能可在 /shseacreatures 中自定义！"
+        },
+        {
+            "key": "Lootshare Range",
+            "value": "战利品共享范围"
+        },
+        {
+            "key": "Shows the range at which you can lootshare. The range is §aGreen §7when the mob is your own or when inside the lootshare range.",
+            "value": "显示你可以进行战利品共享的范围。当生物属于你或在共享范围内时，范围显示为 §a绿色§7。"
+        },
+        {
+            "key": "Custom LS Mobs",
+            "value": "自定义战利品共享生物"
+        },
+        {
+            "key": "This Feature can be customized under /shseacreatures!",
+            "value": "此功能可在 /shseacreatures 中自定义！"
         }
     ]
   },
@@ -906,11 +1054,19 @@
         },
         {
             "key": "Mute Phantoms",
-            "value": "静音幻影"
+            "value": "静音Phantoms"
         },
         {
             "key": "Mute Fusion Machine",
-            "value": "静音融合机器"
+            "value": "静音Fusion Machine"
+        },
+        {
+            "key": "Silences Phantoms in Galate",
+            "value": "在Galate中静音Phantoms"
+        },
+        {
+            "key": "Silences Fusion Machine sounds in Galatea",
+            "value": "在Galatea中静音Fusion Machine"
         }
     ]
   },
@@ -927,6 +1083,14 @@
     "pairs": [
       {
         "key": "Visitor",
+        "value": "访客"
+      },
+      {
+        "key": "Prevent Breaking with Rod",
+        "value": "防止钓鱼竿破坏"
+      },
+      {
+        "key": "拿着钓鱼竿时防止花园里的作物被破坏",
         "value": "访客"
       },
       {
@@ -13725,6 +13889,35 @@
   },
   {
     "target_class": [
+      "at.hannibal2.skyhanni.config.features.garden.contest.ContestTimesConfig$CustomBPSConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
+      {
+        "key": "Custom BPS",
+        "value": "自定义每秒破坏方块数"
+      },
+      {
+        "key": "Use custom Blocks per Second value in some GUIs instead of the real one.",
+        "value": "在某些 GUI 中使用自定义的每秒破坏方块数值代替真实值。"
+      },
+      {
+        "key": "Custom BPS Value",
+        "value": "自定义每秒破坏方块数值"
+      },
+      {
+        "key": "Set a custom Blocks per Second value.",
+        "value": "设置自定义的每秒破坏方块数值。"
+      }
+    ]
+  },
+  {
+    "target_class": [
       "at.hannibal2.skyhanni.config.features.garden.contest.JacobContestConfig"
     ],
     "info": {
@@ -15754,7 +15947,20 @@
       {
         "key": "Warnings",
         "value": "警告"
-      },
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "at.hannibal2.skyhanni.config.features.garden.pests.PestTrapConfig$WarningConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
       {
         "key": "Enabled Warnings",
         "value": "启用的警告"
@@ -21817,7 +22023,20 @@
       {
         "key": "Tracker Settings",
         "value": "追踪器设置"
-      },
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "at.hannibal2.skyhanni.config.features.mining.dwarves.DarkMonolithConfig$BeaconConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
       {
         "key": "Enabled",
         "value": "启用"
@@ -21833,7 +22052,20 @@
       {
         "key": "What color to show the beacon.\n§cCustom alpha values won't work§7.",
         "value": "显示信标的颜色。\n§c自定义 alpha 值无效§7。"
-      },
+      }
+    ]
+  },
+   {
+    "target_class": [
+      "at.hannibal2.skyhanni.config.features.mining.dwarves.DarkMonolithConfig$HighlightConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
       {
         "key": "Enabled",
         "value": "启用"
@@ -21849,7 +22081,20 @@
       {
         "key": "What color to highlight the egg.",
         "value": "高亮龙蛋的颜色。"
-      },
+      }
+    ]
+  },
+ {
+    "target_class": [
+      "at.hannibal2.skyhanni.config.features.mining.dwarves.DarkMonolithConfig$TitleConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
       {
         "key": "Enabled",
         "value": "启用"
@@ -25056,7 +25301,20 @@
       {
         "key": "Item Tracker Settings",
         "value": "物品追踪器设置"
-      },
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "at.hannibal2.skyhanni.config.features.misc.tracker.ItemTrackerGenericConfig$ItemTrackerConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
       {
         "key": "Recent Drops",
         "value": "近期掉落"
@@ -25124,7 +25382,20 @@
       {
         "key": "Drag text to change the line format.",
         "value": "拖拽文本以更改行格式。"
-      },
+      }
+    ]
+  },
+  {
+    "target_class": [
+      "at.hannibal2.skyhanni.config.features.misc.tracker.ItemTrackerGenericConfig$ItemTrackerConfig$TrackerItemWarningsConfig"
+    ],
+    "info": {
+      "annotation": {
+        "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+        "type": "ALL"
+      }
+    },
+    "pairs": [
       {
         "key": "Price in Chat",
         "value": "聊天中的价格"
@@ -25156,10 +25427,6 @@
       {
         "key": "Items above this price will show up as a title.",
         "value": "高于此价格的物品将显示为标题。"
-      },
-      {
-        "key": "",
-        "value": ""
       }
     ]
   },
@@ -26059,6 +26326,49 @@
         "key": "Wilted Berberis",
         "value": "枯萎的小檗"
       }
+    ]
+  },
+  {
+    "target_class": ["at.hannibal2.skyhanni.config.features.rift.area.dreadfarm.VoltCruxConfig"],
+    "info": {
+        "annotation": {
+            "descriptor": "at/hannibal2/skyhanni/deps/moulconfig/annotations/ConfigOption",
+            "type": "ALL"
+        }
+    },
+    "pairs": [
+        {
+            "key": "Volt Warning",
+            "value": "Volt 警告"
+        },
+        {
+            "key": "Show a warning while a Volt is discharging lightning.",
+            "value": "当 Volt 释放闪电时显示警告。"
+        },
+        {
+            "key": "Volt Range Highlighter",
+            "value": "Volt 范围高亮"
+        },
+        {
+            "key": "Show the area in which a Volt might strike lightning.",
+            "value": "显示 Volt 可能释放闪电的区域。"
+        },
+        {
+            "key": "Volt Range Highlighter Color",
+            "value": "Volt 范围高亮颜色"
+        },
+        {
+            "key": "In which color should the Volt range be highlighted?",
+            "value": "Volt 范围高亮应使用哪种颜色？"
+        },
+        {
+            "key": "Volt Mood Color",
+            "value": "Volt 情绪颜色"
+        },
+        {
+            "key": "Change the color of the Volt enemy depending on their mood.",
+            "value": "根据 Volt 敌人的情绪改变其颜色。"
+        }
     ]
   },
   {
