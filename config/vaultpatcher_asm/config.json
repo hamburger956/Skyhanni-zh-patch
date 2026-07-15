@@ -1,5 +1,5 @@
 {
-  "modules": ["SkyHanni-7.14.0-mc1.21.11"],
+  "modules": ["SkyHanni-7.34.0-mc26.1"],
   "default_language": "en_us",
   "class_patch": false,
   "load_all_modules": false,
